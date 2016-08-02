@@ -1,5 +1,5 @@
 {
-  "name": "first-module",
+  "name": "73-first-module",
   "version": "0.1.0",
   "description": "Exploring Node package creation",
   "main": "./distribution/index.js",
