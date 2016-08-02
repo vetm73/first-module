@@ -4,7 +4,7 @@
   "description": "Exploring Node package creation",
   "main": "./distribution/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "babel source --out-dir distribution",
     "prepublish": "npm run build"
   },
@@ -20,6 +20,9 @@
   "homepage": "https://github.com/vetm73/first-module#readme",
   "devDependencies": {
     "babel-cli": "^6.11.4",
-    "babel-preset-es2015": "^6.9.0"
+    "babel-jest": "^14.1.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "jest-cli": "^14.1.0"
   }
 }
