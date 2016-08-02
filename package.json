@@ -1,0 +1,25 @@
+{
+  "name": "first-module",
+  "version": "0.1.0",
+  "description": "Exploring Node package creation",
+  "main": "./distribution/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel source --out-dir distribution",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vetm73/first-module.git"
+  },
+  "author": "Mike van der Vet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vetm73/first-module/issues"
+  },
+  "homepage": "https://github.com/vetm73/first-module#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
